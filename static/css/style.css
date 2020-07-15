@@ -1,0 +1,62 @@
+body{
+       font-family: 'Roboto', sans-serif;
+   }
+   #main_title{
+       font-size:50px;
+       text-align: center;
+       color: rgb(0, 173, 115);
+       
+   }
+   #input_title{
+       position: fixed;
+       font-size:25px;
+       font-style: bold;
+       left:20px;
+       top:100px;
+   }
+   #input{
+       position: fixed;
+       border-style: inset;
+       border-color: rgb(123, 255, 0);
+       padding: 10px;
+       border-radius: 20px;
+       left: 20px;
+       top:140px;
+       width:45%;
+       height:300px;
+       font-size:25px;
+   }
+   #output_title{
+       position: fixed;
+       font-size:25px;
+       font-style: bold;
+       left:50%;
+       top:100px;
+   }
+   #output{
+       position: fixed;
+       border-style: inset;
+       border-color: rgb(123, 255, 0);
+       padding: 10px;
+       border-radius: 20px;
+       left: 50%;
+       top:140px;
+       width:45%;
+       
+       font-size:25px;
+   }
+   #submit_button{
+       position: fixed;
+       top:100px;
+       left:525px;
+       background-color: #4CAF50;
+       border-radius: 10px;
+       border:none;
+       color: white;
+       padding:5px;
+       height:30px;
+       width:100px;
+       text-decoration: none;
+       margin: 4px 2px;
+       cursor: pointer;
+   }
